@@ -1,0 +1,371 @@
+/*
+    DEMO STYLE
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #f2f2f2;
+  font-size: 16px;
+}
+
+.w_clr {
+  color: #fff;
+}
+
+.bg_w {
+  background-color: #fff;
+}
+
+.bg_b {
+  background-color: #199cdb;
+}
+
+.bg_lg {
+  background-color: #5c6770;
+}
+
+.bg_g {
+  background-color: #f2f2f2;
+}
+
+.w1 {
+  width: 100px;
+}
+
+.w2 {
+  width: 70%;
+}
+
+.login_box {
+  width: 1000px;
+  height: 460px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.register_box {
+  width: 100%;
+  height: 75px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.bg_login_img {
+  background-image: url('../images/daily-superfoliant-ipad.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.fs_26 {
+  font-size: 26px;
+}
+
+.fs_12 {
+  font-size: 12px;
+}
+
+.lh_13 {
+  line-height: 1.3;
+}
+
+.pos_r {
+  position: relative;
+}
+
+.pos_f {
+  position: fixed;
+}
+
+.fix {
+  top: 0;
+  left: 0;
+}
+
+.t_122 {
+  top: 122px;
+  left: 0;
+}
+
+.mt_185 {
+  margin-top: 185px;
+}
+
+.derm_prod {
+  width: 25px;
+  margin: 0 auto;
+}
+
+.table tr {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.table tr:last-child {
+  border: none !important;
+}
+
+.table td {
+  border: none !important;
+  font-size: 12px;
+  color: #999;
+  padding: 30px 20px !important;
+}
+
+::placeholder {
+  color: #ccc !important;
+  opacity: 1 !important;
+  font-size: 12px !important;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ccc !important;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #ccc !important;
+}
+
+.hr-sect {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.35);
+}
+
+.hr-sect::before {
+  margin-right: 10px;
+}
+
+.hr-sect::after {
+  margin-left: 10px;
+}
+
+.hr-sect::before,
+.hr-sect::after {
+  content: "";
+  flex-grow: 1;
+  background: rgba(0, 0, 0, 0.15);
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+}
+
+.has-search .form-control {
+  padding-right: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  padding: 10px;
+  right: 0;
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  pointer-events: none;
+  color: #ccc;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.7em;
+  color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.navbar {
+  padding: 15px 10px;
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 40px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+  box-shadow: none;
+  outline: none !important;
+  border: none;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dashed #ddd;
+  margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.innermenu {
+  padding-left: 35px;
+}
+
+.mCS-minimal.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background-color: #999 !important;
+}
+
+#sidebar {
+  width: 250px;
+  position: fixed;
+  /* top: 0;
+  left: 0; */
+  height: 75vh;
+  overflow: auto;
+  z-index: 999;
+  background: #fff;
+  transition: all 0.3s;
+  box-shadow: 0 0 1px #ccc;
+}
+
+#sidebar.active {
+  margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+  padding: 20px;
+  background: #6d7fcc;
+}
+
+#sidebar ul.components {
+  padding: 0 0 20px 0;
+  /* border-bottom: 1px solid #47748b; */
+}
+
+#sidebar ul p {
+  color: #fff;
+  padding: 10px;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  /* font-size: 1.1em; */
+  display: block;
+  background-color: #f2f2f2;
+  margin-bottom: 2px;
+  font-size: 12px;
+  color: #999;
+}
+
+#sidebar ul li a:hover {
+  /* color: #7386D5;
+  background: #fff; */
+}
+
+.innermenu li a {
+  font-size: 12px !important;
+}
+
+.innermenu li a:hover {
+  /* color: #7386D5; */
+  background: #e8f5fb !important;
+  border-left: 2px solid #199cdb !important;
+}
+
+#sidebar ul li.active>a {
+  background: #e8f5fb !important;
+  border-left: 2px solid #199cdb !important;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+  /* color: #fff; */
+  /* background: #6d7fcc; */
+  /* background-color: #f2f2f2; */
+}
+
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+.dropdown-toggle::after {
+  border: none !important;
+}
+
+/* .dropdown-toggle::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+} */
+ul ul a {
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+  background: #6d7fcc;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+#content {
+  width: calc(100% - 345px);
+  padding: 20px;
+  /* min-height: 100vh; */
+  transition: all 0.3s;
+  position: fixed;
+  height: 75vh;
+  overflow: auto;
+  left: 297px;
+  /* top: 0;
+  right: 0; */
+}
+
+#content.active {
+  width: 100%;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -250px;
+  }
+
+  #sidebar.active {
+    margin-left: 0;
+  }
+
+  #content {
+    width: 100%;
+  }
+
+  #content.active {
+    width: calc(100% - 250px);
+  }
+
+  #sidebarCollapse span {
+    display: none;
+  }
+}
